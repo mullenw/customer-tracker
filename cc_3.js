@@ -21,13 +21,12 @@ customers.push({
     purchases: ["football", "helmet visor"]
 });
 customers.shift();
-
-
+customers[0].email = "james4cook@gmail.com";
+customers[1].purchases.push("cleats");
 //Summary of Products
-//SKU-001 | Eco Bottle | $19.99 | Stock: 42
-inventory.forEach(obj => console.log(`${obj.sku}\t|\t${obj.name}\t|\t${obj.price}\t|\t${obj.stock}`));
+customers.forEach(obj => console.log(`${obj.customers}\t|\t${obj.name}\t|\t${obj.email}\t|\t${obj.purchases}`));
 
-inventory.push({sku:"SKU-005",name:"Pads",price:174.99,stock:150})
-console.log(inventory.pop())
-inventory[1].price = 19.99
-console.log(inventory[1])
+//inventory.push({sku:"SKU-005",name:"Pads",price:174.99,stock:150})
+//console.log(inventory.pop())
+//inventory[1].price = 19.99
+//console.log(inventory[1])
