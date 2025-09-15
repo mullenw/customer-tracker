@@ -24,7 +24,7 @@ customers.shift();
 customers[0].email = "james4cook@gmail.com";
 customers[1].purchases.push("cleats");
 //Summary of Products
-customers.forEach(obj => console.log(`${obj.customers}\t|\t${obj.name}\t|\t${obj.email}\t|\t${obj.purchases}`));
+customers.forEach(obj => console.log(`${obj.name}\t|\t${obj.email}\t|\t${obj.purchases}`));
 
 //inventory.push({sku:"SKU-005",name:"Pads",price:174.99,stock:150})
 //console.log(inventory.pop())
