@@ -6,12 +6,12 @@ let customers = [
     },
     {
         name: "James Cook",
-        email: "jcook@gmail.com"
+        email: "jcook@gmail.com",
         purchases: ["helmet", "shoulder pads"]
     },
     {
-        name: "De'von Achane"
-        email: "dachane@gmail.com"
+        name: "De'von Achane",
+        email: "dachane@gmail.com",
         purchases: ["blue gatorade", "gloves"]
     }
 ];
