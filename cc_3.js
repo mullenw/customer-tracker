@@ -15,6 +15,13 @@ let customers = [
         purchases: ["blue gatorade", "gloves"]
     }
 ];
+customers.push({
+    name: "Xavier Worthy",
+    email: "xworthy@gmail.com",
+    purchases: ["football", "helmet visor"]
+});
+customers.shift();
+
 
 //Summary of Products
 //SKU-001 | Eco Bottle | $19.99 | Stock: 42
